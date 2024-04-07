@@ -1,5 +1,4 @@
-# pqc-js-sdk
-Hybrid Post Quantum Cryptography SDK in JavaScript
+# Hybrid Post Quantum Cryptography SDK in JavaScript
 
 See https://github.com/DogeProtocol/hybrid-pqc for implementation details
 
