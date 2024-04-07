@@ -73,7 +73,7 @@ Returns `true` if the verification succeeded. Otherwise, returns `false`.
 
 Throws `InvalidArgumentsError` if arguments are invalid, such as incorrect length.
 
-Can throw `OperationFailedError` if the operation fails unexpectedly. One of the reasons this can happen is if the signature is malformed.
+Can throw `OperationFailedError` if the operation fails unexpectedly. One of the reasons this can happen is if the signature is tampered.
 
 ## Example
 
