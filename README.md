@@ -110,4 +110,10 @@ cryptoHash(msg).then((msgHash) => {
 ```
 
 ## Notes
+
 The file `hybrid-pqc-node.js` is copied from https://github.com/DogeProtocol/hybrid-pqc/releases/download/v0.1.38/hybrid-pqc-nodejs-wasm.tar.gz
+
+This library does not perform any memory cleansing, such as setting private-key bytes to zero after usage.
+
+
+
