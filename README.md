@@ -1,8 +1,8 @@
 # Hybrid Post Quantum Cryptography SDK in JavaScript
 
-See https://github.com/DogeProtocol/hybrid-pqc for implementation details
+See https://github.com/DogeProtocol/hybrid-pqc for the underlying cryptography implementation details
 
-Uses Dilithium, SPHINCS+ amd ed25519 in hybrid post-quantum + classical mode
+Uses Dilithium, SPHINCS+ and ed25519 in hybrid post-quantum + classical mode
 
 ## Installing
 
