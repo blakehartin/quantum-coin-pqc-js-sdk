@@ -6,7 +6,7 @@ Uses Dilithium, SPHINCS+ and ed25519 in hybrid post-quantum + classical mode
 
 ## Installing
 
-    npm install pqc-js-sdk
+    npm install quantum-coin-pqc-js-sdk
 
 ## APIs
 
@@ -78,7 +78,7 @@ Can throw `OperationFailedError` if the operation fails unexpectedly. One of the
 ## Example
 
 ```javascript
-var pqc = require('pqc-js-sdk')
+var pqc = require('quantum-coin-pqc-js-sdk')
 
 /*
   Just an example for hashing a message 
