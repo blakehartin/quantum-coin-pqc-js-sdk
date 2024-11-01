@@ -1,6 +1,6 @@
 # Hybrid Post Quantum Cryptography SDK in JavaScript
 
-See https://github.com/DogeProtocol/hybrid-pqc for the underlying cryptography implementation details
+See https://github.com/quantumcoinproject/hybrid-pqc for the underlying cryptography implementation details
 
 Uses Dilithium, SPHINCS+ and ed25519 in hybrid post-quantum + classical mode
 
@@ -30,7 +30,7 @@ PublicKey is of size 1408 bytes. Can be accessed by calling `getPublicKey()`
 Can throw `OperationFailedError` if the operation fails unexpectedly.
 
 ### cryptoSign(messageArray, privateKeyArray)
-Signs a message and returns the signature. Currently, only the compact signing mode is supported. For more details, see https://github.com/DogeProtocol/hybrid-pqc
+Signs a message and returns the signature. Currently, only the compact signing mode is supported. For more details, see https://github.com/quantumcoinproject/hybrid-pqc
 
 #### Parameters
 
