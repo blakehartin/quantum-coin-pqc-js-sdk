@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DogeProtocol/pqc-js-sdk.git"
+    "url": "git+https://github.com/quantumcoinproject/quantum-coin-pqc-js-sdk.git"
   },
   "files": [ "**"],
   "keywords": [
@@ -21,7 +21,7 @@
   "author": "Doge Protocol Community",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DogeProtocol/pqc-js-sdk/issues"
+    "url": "https://github.com/quantumcoinproject/quantum-coin-pqc-js-sdk/issues"
   },
-  "homepage": "https://github.com/DogeProtocol/pqc-js-sdk#readme"
+  "homepage": "https://github.com/quantumcoinproject/quantum-coin-pqc-js-sdk#readme"
 }
