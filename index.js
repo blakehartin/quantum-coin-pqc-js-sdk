@@ -1,8 +1,5 @@
 //index.js
 
-var fs = require('fs');
-const path = require('path');
-
 var hybridpqc = require('./hybrid-pqc-node');
 
 function CryptoRandomError () {
@@ -201,9 +198,7 @@ function cryptoSign(messageArray, privateKeyArray) {
   }
 
   const sigLenBuf = new BigUint64Array(hybridpqc.HEAPU8.buffer, smlPtr, 1);
-  if (sigLenBuf != BigInt(CRYPTO_COMPACT_SIGNATURE_BYTES)) {
-    throw new InvalidArgumentsError;
-  }
+
   const sigBuf = new Uint8Array(hybridpqc.HEAPU8.buffer, smPtr, sigLenBuf);
   const sigArray = new Uint8Array(CRYPTO_COMPACT_SIGNATURE_BYTES);
   for (let i = 0; i < CRYPTO_COMPACT_SIGNATURE_BYTES; i++) {
